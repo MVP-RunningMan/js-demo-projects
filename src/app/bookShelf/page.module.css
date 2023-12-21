@@ -1,0 +1,36 @@
+.container {
+  /* 设置高度宽度,子元素居中 */
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  /* 相对定位 */
+  position: relative;
+}
+
+.every  {
+  /* 小手 */
+  cursor: pointer;
+  /* 文字从左竖向排列 */
+  writing-mode:vertical-lr;
+  width: 160px;
+  height: 200px;
+  position: absolute;
+  top: 30px;
+  left: 15px;
+  transition: all 400ms;
+}
+
+.every:hover{
+  /* 鼠标悬浮的元素层级最大,向左平移42px */
+  z-index: 99999;
+  background: black;
+  color: #ffffff;
+  transform: translateX(-42px);
+}
