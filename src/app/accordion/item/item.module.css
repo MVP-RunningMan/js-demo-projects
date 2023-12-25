@@ -1,0 +1,24 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  font-size: 36px;
+}
+
+
+.title{
+  cursor: pointer;
+  background-color: antiquewhite;
+  text-align: center;
+  width: 100%;
+}
+
+.item{
+  height: 0px;
+  text-align: center;
+
+  /* 动画相关 */
+  /* 超出部分隐藏 */
+  overflow-y: hidden;
+  /* 当高度改变触发动画 */
+  transition: height 0.5s;
+}
