@@ -13,9 +13,7 @@
 }
 
 .item{
-  height: 0px;
   text-align: center;
-
   /* 动画相关 */
   /* 超出部分隐藏 */
   overflow-y: hidden;
